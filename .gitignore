@@ -1,6 +1,10 @@
 # Bazel
 bazel-*
 
+#caffemodel
+*.caffemodel
+*.solverstate
+
 #ide's and build
 cmake-build-debug
 .idea
