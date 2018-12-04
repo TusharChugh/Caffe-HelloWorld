@@ -1,0 +1,13 @@
+/home/fzff9p/c++/Caffe_HelloWorld/build/CMakeFiles/Caffe_HelloWorld.dir
+/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/CMakeFiles/caffe.dir
+/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/docs/CMakeFiles/docs.dir
+/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/gtest/CMakeFiles/gtest.dir
+/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/docs/CMakeFiles/jekyll.dir
+/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/CMakeFiles/lint.dir
+/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/CMakeFiles/proto.dir
+/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/python/CMakeFiles/pycaffe.dir
+/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/CMakeFiles/pytest.dir
+/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/test/CMakeFiles/runtest.dir
+/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/CMakeFiles/symlink_to_build.dir
+/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/test/CMakeFiles/test.testbin.dir
+/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/CMakeFiles/uninstall.dir

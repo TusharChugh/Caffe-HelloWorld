@@ -1,0 +1,6 @@
+[  0%] [  1%] Built target gtest
+Built target proto
+[  2%] Building NVCC (Device) object external/caffe/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_output_padding_layer.cu.o
+Scanning dependencies of target caffe
+[  2%] Building CXX object external/caffe/src/caffe/CMakeFiles/caffe.dir/layers/output_padding_layer.cpp.o
+Linking CXX shared library ../../lib/libcaffe.so

@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Caffe_HelloWorld" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\caffe\;CMake Files\external\caffe\cmake\;CMake Files\external\caffe\cmake\External\;CMake Files\external\caffe\cmake\Modules\;CMake Files\external\caffe\cmake\Templates\;CMake Files\external\caffe\src\;CMake Files\external\caffe\src\gtest\;CMake Files\external\caffe\src\caffe\;CMake Files\external\caffe\src\caffe\test\;CMake Files\external\caffe\python\;CMake Files\external\caffe\matlab\;CMake Files\external\caffe\docs\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Caffe_HelloWorld">
+         <Option output="/home/fzff9p/c++/Caffe_HelloWorld/build/Caffe_HelloWorld" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_LMDB" />
+            <Add option="-DUSE_LEVELDB" />
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DUSE_OPENCV" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/include" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/local/cuda-8.0/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 Caffe_HelloWorld" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Caffe_HelloWorld/fast">
+         <Option output="/home/fzff9p/c++/Caffe_HelloWorld/build/Caffe_HelloWorld" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_LMDB" />
+            <Add option="-DUSE_LEVELDB" />
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DUSE_OPENCV" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/include" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/local/cuda-8.0/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 Caffe_HelloWorld/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="lint">
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/Makefile&quot;  VERBOSE=1 lint" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pytest">
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/Makefile&quot;  VERBOSE=1 pytest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="symlink_to_build">
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/Makefile&quot;  VERBOSE=1 symlink_to_build" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="uninstall">
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/Makefile&quot;  VERBOSE=1 uninstall" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest">
+         <Option output="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/lib/libgtest.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/gtest" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add option="-DCAFFE_VERSION=1.0.0" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/include" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/gtest/Makefile&quot;  VERBOSE=1 gtest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/gtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/gtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest/fast">
+         <Option output="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/lib/libgtest.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/gtest" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add option="-DCAFFE_VERSION=1.0.0" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/include" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/gtest/Makefile&quot;  VERBOSE=1 gtest/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/gtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/gtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="caffe">
+         <Option output="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/lib/libcaffe.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_LMDB" />
+            <Add option="-DUSE_LEVELDB" />
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DUSE_OPENCV" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DCAFFE_VERSION=1.0.0" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/include" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/local/cuda-8.0/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/Makefile&quot;  VERBOSE=1 caffe" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="caffe/fast">
+         <Option output="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/lib/libcaffe.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_LMDB" />
+            <Add option="-DUSE_LEVELDB" />
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DUSE_OPENCV" />
+            <Add option="-DWITH_PYTHON_LAYER" />
+            <Add option="-DCAFFE_VERSION=1.0.0" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/include" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/local/cuda-8.0/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/Makefile&quot;  VERBOSE=1 caffe/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="proto">
+         <Option output="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/lib/libproto.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCAFFE_VERSION=1.0.0" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/Makefile&quot;  VERBOSE=1 proto" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="proto/fast">
+         <Option output="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/lib/libproto.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCAFFE_VERSION=1.0.0" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/Makefile&quot;  VERBOSE=1 proto/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="runtest">
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/test" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/test/Makefile&quot;  VERBOSE=1 runtest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test.testbin">
+         <Option output="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/test/test.testbin" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCAFFE_VERSION=1.0.0" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add option="-DUSE_LMDB" />
+            <Add option="-DUSE_LEVELDB" />
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DUSE_OPENCV" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/include" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/local/cuda-8.0/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/test/Makefile&quot;  VERBOSE=1 test.testbin" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test.testbin/fast">
+         <Option output="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/test/test.testbin" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCAFFE_VERSION=1.0.0" />
+            <Add option="-DGTEST_USE_OWN_TR1_TUPLE" />
+            <Add option="-DUSE_LMDB" />
+            <Add option="-DUSE_LEVELDB" />
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DUSE_OPENCV" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/include" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/local/cuda-8.0/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/test/Makefile&quot;  VERBOSE=1 test.testbin/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/src/caffe/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pycaffe">
+         <Option output="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/lib/_caffe.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/python" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCAFFE_VERSION=1.0.0" />
+            <Add option="-DUSE_LMDB" />
+            <Add option="-DUSE_LEVELDB" />
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DUSE_OPENCV" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/include" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/local/cuda-8.0/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/python/Makefile&quot;  VERBOSE=1 pycaffe" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/python/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/python/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pycaffe/fast">
+         <Option output="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/lib/_caffe.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/python" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCAFFE_VERSION=1.0.0" />
+            <Add option="-DUSE_LMDB" />
+            <Add option="-DUSE_LEVELDB" />
+            <Add option="-DUSE_CUDNN" />
+            <Add option="-DUSE_OPENCV" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/include" />
+            <Add directory="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include" />
+            <Add directory="/usr/include/atlas" />
+            <Add directory="/usr/include/python2.7" />
+            <Add directory="/usr/include/x86_64-linux-gnu/python2.7" />
+            <Add directory="/usr/local/cuda-8.0/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+            <Add directory="/usr/local/lib/python2.7/dist-packages/numpy/core/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/python/Makefile&quot;  VERBOSE=1 pycaffe/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/python/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/python/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="docs">
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/docs" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/docs/Makefile&quot;  VERBOSE=1 docs" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/docs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/docs/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/docs/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="jekyll">
+         <Option working_dir="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/docs" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/docs/Makefile&quot;  VERBOSE=1 jekyll" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/docs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/docs/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/docs/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/python/caffe/_caffe.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/blob.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/common.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/data_transformer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/internal_thread.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layer_factory.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/absval_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/accuracy_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/argmax_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/base_conv_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/base_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/batch_norm_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/batch_reindex_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/bias_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/bnll_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/box_annotator_ohem_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/channel_pad_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/concat_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/contrastive_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/conv_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/crop_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/cudnn_conv_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/cudnn_lcn_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/cudnn_lrn_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/cudnn_pooling_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/cudnn_relu_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/cudnn_sigmoid_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/cudnn_softmax_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/cudnn_tanh_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/deconv_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/dropout_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/dummy_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/eltwise_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/elu_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/embed_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/euclidean_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/exp_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/filter_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/flatten_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/hdf5_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/hdf5_output_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/hinge_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/im2col_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/image_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/infogain_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/inner_product_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/input_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/log_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/lrn_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/lstm_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/lstm_unit_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/memory_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/multinomial_logistic_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/mvn_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/neuron_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/output_padding_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/parameter_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/pooling_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/power_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/prelu_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/proposal_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/psroi_pooling_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/recurrent_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/reduction_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/relu_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/reshape_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/rnn_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/roi_pooling_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/scale_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/sigmoid_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/silence_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/slice_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/smooth_L1_loss_ohem_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/smooth_l1_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/softmax_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/softmax_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/softmax_loss_ohem_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/split_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/spp_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/tanh_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/threshold_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/tile_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/unpooling_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/window_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/net.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/parallel.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/solver.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/solvers/adadelta_solver.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/solvers/adagrad_solver.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/solvers/adam_solver.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/solvers/nesterov_solver.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/solvers/rmsprop_solver.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/solvers/sgd_solver.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/syncedmem.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_accuracy_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_argmax_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_batch_norm_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_batch_reindex_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_benchmark.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_bias_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_blob.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_caffe_main.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_common.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_concat_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_contrastive_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_convolution_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_crop_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_data_transformer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_db.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_deconvolution_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_dummy_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_eltwise_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_embed_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_euclidean_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_filler.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_filter_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_flatten_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_gradient_based_solver.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_hdf5_output_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_hdf5data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_hinge_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_im2col_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_image_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_infogain_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_inner_product_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_internal_thread.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_io.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_layer_factory.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_lrn_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_lstm_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_math_functions.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_maxpool_dropout_layers.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_memory_data_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_multinomial_logistic_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_mvn_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_net.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_neuron_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_platform.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_pooling_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_power_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_protobuf.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_random_number_generator.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_reduction_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_reshape_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_rnn_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_roi_pooling_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_scale_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_slice_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_smooth_l1_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_softmax_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_softmax_with_loss_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_solver.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_solver_factory.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_split_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_spp_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_stochastic_pooling.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_syncedmem.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_tanh_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_threshold_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_tile_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_unpooling_layer.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_upgrade_proto.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_util_blas.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/util/benchmark.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/util/blocking_queue.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/util/cudnn.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/util/db.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/util/db_leveldb.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/util/db_lmdb.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/util/hdf5.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/util/im2col.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/util/insert_splits.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/util/io.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/util/math_functions.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/util/signal_handler.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/util/upgrade_proto.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/gtest/gtest-all.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/main.cpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/build/external/caffe/caffe_config.h">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/blob.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/caffe.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/common.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/data_transformer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/filler.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/internal_thread.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layer_factory.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/absval_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/accuracy_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/argmax_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/base_conv_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/base_data_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/batch_norm_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/batch_reindex_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/bias_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/bnll_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/box_annotator_ohem_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/channel_pad_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/concat_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/contrastive_loss_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/conv_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/crop_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/cudnn_conv_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/cudnn_lcn_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/cudnn_lrn_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/cudnn_pooling_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/cudnn_relu_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/cudnn_sigmoid_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/cudnn_softmax_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/cudnn_tanh_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/data_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/deconv_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/dropout_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/dummy_data_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/eltwise_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/elu_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/embed_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/euclidean_loss_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/exp_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/filter_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/flatten_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/hdf5_data_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/hdf5_output_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/hinge_loss_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/im2col_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/image_data_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/infogain_loss_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/inner_product_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/input_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/log_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/loss_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/lrn_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/lstm_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/memory_data_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/multinomial_logistic_loss_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/mvn_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/neuron_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/output_padding_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/parameter_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/pooling_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/power_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/prelu_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/proposal_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/psroi_pooling_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/python_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/recurrent_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/reduction_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/relu_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/reshape_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/rnn_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/roi_pooling_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/scale_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/sigmoid_cross_entropy_loss_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/sigmoid_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/silence_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/slice_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/smooth_l1_loss_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/smooth_l1_loss_ohem_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/softmax_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/softmax_loss_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/softmax_loss_ohem_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/split_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/spp_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/tanh_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/threshold_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/tile_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/unpooling_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/layers/window_data_layer.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/net.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/parallel.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/sgd_solvers.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/solver.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/solver_factory.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/syncedmem.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/test/test_caffe_main.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/test/test_gradient_check_util.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/util/benchmark.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/util/blocking_queue.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/util/cudnn.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/util/db.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/util/db_leveldb.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/util/db_lmdb.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/util/device_alternate.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/util/format.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/util/hdf5.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/util/im2col.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/util/insert_splits.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/util/io.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/util/math_functions.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/util/mkl_alternate.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/util/nccl.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/util/rng.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/util/signal_handler.h">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/include/caffe/util/upgrade_proto.hpp">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/absval_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/argmax_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/base_data_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/batch_norm_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/batch_reindex_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/bias_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/bnll_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/box_annotator_ohem_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/channel_pad_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/concat_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/contrastive_loss_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/conv_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/crop_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/cudnn_conv_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/cudnn_lcn_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/cudnn_lrn_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/cudnn_pooling_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/cudnn_relu_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/cudnn_sigmoid_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/cudnn_softmax_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/cudnn_tanh_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/deconv_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/dropout_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/eltwise_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/elu_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/embed_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/euclidean_loss_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/exp_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/filter_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/hdf5_data_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/hdf5_output_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/im2col_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/inner_product_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/log_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/lrn_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/lstm_unit_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/mvn_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/output_padding_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/pooling_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/power_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/prelu_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/psroi_pooling_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/recurrent_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/reduction_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/relu_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/roi_pooling_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/scale_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/sigmoid_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/silence_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/slice_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/smooth_L1_loss_ohem_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/smooth_l1_loss_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/softmax_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/softmax_loss_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/softmax_loss_ohem_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/split_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/tanh_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/threshold_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/tile_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/layers/unpooling_layer.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/proto/caffe.proto">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/solvers/adadelta_solver.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/solvers/adagrad_solver.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/solvers/adam_solver.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/solvers/nesterov_solver.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/solvers/rmsprop_solver.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/solvers/sgd_solver.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/test_im2col_kernel.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/util/im2col.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/util/math_functions.cu">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/gtest/gtest.h">
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\caffe\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\caffe\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Utils.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Targets.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Misc.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Summary.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/ConfigGen.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Dependencies.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/ProtoBuf.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Cuda.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Uninstall.cmake.in">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Utils.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Targets.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Misc.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Summary.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/ConfigGen.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Dependencies.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/ProtoBuf.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Cuda.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Uninstall.cmake.in">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/External/glog.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\External\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/External/gflags.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\External\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/External/gflags.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\External\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/External/glog.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\External\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/External/gflags.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\External\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/External/gflags.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\External\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Modules/FindGFlags.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Modules/FindGlog.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Modules/FindLMDB.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Modules/FindLevelDB.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Modules/FindSnappy.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Modules/FindAtlas.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Modules/FindNumPy.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Modules/FindGFlags.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Modules/FindGlog.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Modules/FindLMDB.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Modules/FindLevelDB.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Modules/FindSnappy.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Modules/FindAtlas.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Modules/FindNumPy.cmake">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Templates/caffe_config.h.in">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\Templates\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/cmake/Templates/caffe_config.h.in">
+          <Option virtualFolder="CMake Files\external\caffe\cmake\Templates\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/gtest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\caffe\src\gtest\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/gtest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\caffe\src\gtest\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\caffe\src\caffe\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\caffe\src\caffe\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\caffe\src\caffe\test\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/src/caffe/test/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\caffe\src\caffe\test\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/python/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\caffe\python\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/python/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\caffe\python\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/matlab/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\caffe\matlab\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/matlab/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\caffe\matlab\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/docs/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\caffe\docs\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/external/caffe/docs/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\caffe\docs\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/fzff9p/c++/Caffe_HelloWorld/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
